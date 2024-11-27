@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalaize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  <title>Barber Shop</title>
+
+</head>
+
+<body>
+  <!-- start sidebar -->
+  <button class="icons">
+    <span></span>
+  </button>
+  <nav>
+    <a href="#">
+      <img src="images/logo.png" alt="">
+    </a>
+    <ul>
+      <li><a class="active" href="#section_1">home</a></li>
+      <li><a href="#section_2">Our Story</a></li>
+      <li><a href="#section_3">Services</a></li>
+      <li><a href="#section_4">reservation</a></li>
+      <li><a href="#section_5">Price List</a></li>
+      <li><a href="#section_6">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- end sidebar -->
+  <div class="content">
+    <!-- start home-->
+    <div class="home" id="section_1">
+      <div class="text">
+        <strong>Barber <em>Shop</em></strong>
+        <p>Get the most professional haircut for you</p>
+        <a href="#section_2">about us</a>
+        <a href="#section_3">what we do</a>
+      </div>
+      <div class="info">
+        <img src="images/section_3.jpg" alt="">
+        <h4>Hurry Up! Get good haircut.</h4>
+        <a href="#section_3">Book a seat</a>
+      </div>
+    </div>
+    <!-- end home-->
+    <!-- start Our Story -->
+    <div class="stroy" id="section_2">
+      <div class="container">
+        <h2>Best hairdressers</h2>
+        <p>Gentlemen's Barber Shop is new Bootstrap v5 HTML CSS template by <a href="https://github.com/">mged
+            sendian</a> for everyone. There is a sidebar
+          menu to navigate the one-page layout. You can feel free to adapt this template for your business.</p>
+        <h6>Meet Babers</h6>
+        <div class="images">
+          <div class="box">
+            <img src="images/barber-1.jpg" alt="">
+            <div class="media">
+              <span>ahmad</span>
+              <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/barber-2.jpg" alt="">
+            <div class="media">
+              <span>samer</span>
+              <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start Our Story -->
+    <!-- start Discount -->
+    <div class="Discount">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Get 32% Discount</h2>
+        <p>on every second week of the month</p>
+        <strong>Promo Code: BarBerMo</strong>
+      </div>
+    </div>
+    <!-- end Discount -->
+    <!-- start Services -->
+    <div class="Services" id="section_3">
+      <div class="container">
+        <div class="box">
+          <img src="images/Services-1.jpg" alt="">
+          <div class="info">
+            <h4>Washing</h4>
+            <strong>$25.00</strong>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/Services-2.jpg" alt="">
+          <div class="info">
+            <h4>Shaves</h4>
+            <strong>$30.00</strong>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/Services-3.jpg" alt="">
+          <div class="info">
+            <h4>Kids</h4>
+            <strong>$25.00</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Services -->
+    <!-- start reservation -->
+    <div class="reservation" id="section_4">
+      <div class="container">
+        <form action="#">
+          <div class="text">
+            <h2>Book a seat</h2>
+            <p>Please fill out the form and we get back to you</p>
+          </div>
+          <div class="form">
+            <input type="text" placeholder="Full name" id="add-name" name="add-name">
+            <input type="tel" name="bb-phone" placeholder="Mobile 010-020-0340" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <input type="time" name="bb-time" value="18:30">
+            <select class="form-select" name="bb-branch" id="bb-branch" aria-label="Default select example">
+              <option selected="">Select Branches</option>
+              <option value="Grünberger">Grünberger</option>
+              <option value="Behrenstraße">Behrenstraße</option>
+              <option value="Weinbergsweg">Weinbergsweg</option>
+            </select>
+            <input type="date" name="bb-date" id="bb-date" placeholder="Date" required="">
+            <input type="number" name="bb-number" id="bb-number" placeholder="Number of People" required="">
+          </div>
+          <textarea name="bb-message" id="bb-message" placeholder="Comment (Optionals)"></textarea>
+          <button type="submit" class="form-controul">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- endf reservation -->
+    <!-- start Price List -->
+    <div class="Price-List" id="section_5">
+      <div class="container">
+        <div class="Price">
+          <h2>Price List</h2>
+          <p>Starting at $25</p>
+          <div class="box">
+            <h6>Haircut</h6>
+            <span></span>
+            <strong>$32.00</strong>
+          </div>
+          <div class="box">
+            <h6>Beard Trim</h6>
+            <span></span>
+            <strong>$26.00</strong>
+          </div>
+          <div class="box">
+            <h6>Razor Cut</h6>
+            <span></span>
+            <strong>$32.00</strong>
+          </div>
+          <div class="box">
+            <h6>Shaves</h6>
+            <span></span>
+            <strong>$30.00</strong>
+          </div>
+          <div class="box">
+            <h6>Styling / Color</h6>
+            <span></span>
+            <strong>$30.00</strong>
+          </div>
+        </div>
+        <div class="images">
+          <img src="images/section_3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- end Price List -->
+    <div class="hello">
+      <h2>Say hello</h2>
+    </div>
+    <!-- start Contact -->
+    <div class="Contact" id="section_6">
+      <div class="container">
+        <div class="info">
+          <h5>Contact Information</h5>
+          <p><a href="tel: 120-240-3600">(+49) 120-240-3600</a></p>
+          <p><a href="mailto:info@yourgmail.com">hello@barber.beauty</a></p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <div class="cont">
+            <div class="box-rotate">
+              <h6>
+                <i class="fa-solid fa-house-chimney"></i>
+                <strong>Open Daily</strong>
+                <br>
+                <span>10:00 AM - 8:00 PM</span>
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7702.122299518348!2d13.396786616231472!3d52.531268574169616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85180d9075183%3A0xbba8c62c3dc41a7d!2sBarbabella%20Barbershop!5e1!3m2!1sen!2sth!4v1673886261201!5m2!1sen!2sth"
+            frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- end Contact -->
+    <div class="footer">
+      <h4>Our Branches</h4>
+      <div class="contact">
+        <div class="box">
+          <strong>Grünberger</strong>
+          <p>Grünberger Str. 31, 10245 Berlin, Germany</p>
+        </div>
+        <div class="box">
+          <strong>Behrenstraße</strong>
+          <p>Behrenstraße 27, 10117 Berlin, Germany</p>
+        </div>
+        <div class="box">
+          <strong>Weinbergsweg</strong>
+          <p>Weinbergsweg 23, 10119 Berlin, Germany</p>
+        </div>
+      </div>
+      <p>Copyright © 2036 Barber Shop - Design: <a href="https://github.com/mgedsendian"> mgedsendian</a></p>
+      <a class="Up" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </div>
+</body>
+
+</html>
